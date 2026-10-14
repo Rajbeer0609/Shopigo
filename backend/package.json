@@ -1,0 +1,30 @@
+{
+  "name": "shopigo-backend",
+  "version": "1.0.0",
+  "description": "Shopigo E-Commerce REST API Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "shopigo",
+    "ecommerce",
+    "mern",
+    "express",
+    "mongodb"
+  ],
+  "author": "Rajbeer Singh (Rajbeer0609)",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb-memory-server": "^11.2.0",
+    "mongoose": "^9.9.4",
+    "razorpay": "^2.9.8"
+  }
+}
